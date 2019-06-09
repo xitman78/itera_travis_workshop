@@ -1,4 +1,4 @@
-landuage: node_js
+language: node_js
 node_js:
   - stable
 
@@ -9,13 +9,6 @@ cache:
 
 
 script:
-  - npm i
   - npm test
+  - npm run test:coverage
   - npm run build
-
-deploy:
-  skip_cleanup: true
-  github_token: $github_token
-  local_dir: build
-  on:
-    branch: master
