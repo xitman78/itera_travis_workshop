@@ -6,7 +6,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
- "scripts": {
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
@@ -41,5 +41,13 @@
         "statements": 60
       }
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test -- --watch-all=false"
+    }
+  },
+  "devDependencies": {
+    "husky": "^2.4.0"
   }
 }
