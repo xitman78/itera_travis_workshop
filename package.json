@@ -9,7 +9,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,14 +34,13 @@
         "functions": 60,
         "lines": 60,
         "statements": 60
-      },
-      "src/index.js": {
-        "branches": 60,
-        "functions": 60,
-        "lines": 60,
-        "statements": 60
       }
-    }
+    },
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!src/index.ts"
+    ]
   },
   "homepage": "https://khalzmax.github.io/itera_travis_workshop/",
   "husky": {
