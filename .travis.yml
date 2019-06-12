@@ -1,0 +1,25 @@
+landuage: node_js
+node_js:
+  - stable
+
+cache:
+  directories:
+  - node_modules
+
+# before_install:
+#   - npm i -g npm@latest
+
+# install:
+  # npm ci
+
+script:
+  - npm test
+  - npm run build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: build
+  on:
+    branch: master
