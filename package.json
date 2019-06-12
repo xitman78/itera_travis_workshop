@@ -42,6 +42,7 @@
       }
     }
   },
+  "homepage": "https://khalzmax.github.io/itera_travis_workshop/",
   "husky": {
     "hooks": {
       "pre-push": "npm test -- --watch-all=false"
