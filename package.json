@@ -9,7 +9,8 @@
  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --coveragePathIgnorePatterns=src/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,12 +30,6 @@
   "jest": {
     "coverageThreshold": {
       "global": {
-        "branches": 60,
-        "functions": 60,
-        "lines": 60,
-        "statements": 60
-      },
-      "src/index.js": {
         "branches": 60,
         "functions": 60,
         "lines": 60,
