@@ -37,5 +37,13 @@
       }
     }
   },
-  "homepage": "https://xitman78.github.io/itera_travis_workshop/"
+  "homepage": "https://xitman78.github.io/itera_travis_workshop/",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test:coverage -- --watch-all=false"
+    }
+  },
+  "devDependencies": {
+    "husky": "^2.4.1"
+  }
 }
