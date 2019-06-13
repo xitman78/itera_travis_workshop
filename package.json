@@ -10,7 +10,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage"
+    "test:coverage": "react-scripts test --coverage --coveragePathIgnorePatterns=src/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,12 +34,6 @@
         "functions": 60,
         "lines": 60,
         "statements": 60
-      },
-      "src/index.js": {
-        "branches": 0,
-        "functions": 0,
-        "lines": 0,
-        "statements": 0
       }
     }
   }
