@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/itera_travis_workshop/static/css/main.fa44479f.chunk.css",
+    "main.js": "/itera_travis_workshop/static/js/main.68111639.chunk.js",
+    "main.js.map": "/itera_travis_workshop/static/js/main.68111639.chunk.js.map",
+    "runtime~main.js": "/itera_travis_workshop/static/js/runtime~main.4f640686.js",
+    "runtime~main.js.map": "/itera_travis_workshop/static/js/runtime~main.4f640686.js.map",
+    "static/js/2.b41502e9.chunk.js": "/itera_travis_workshop/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/itera_travis_workshop/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/itera_travis_workshop/index.html",
+    "precache-manifest.19d89b385bf1ebb177b0bdd3edc0838a.js": "/itera_travis_workshop/precache-manifest.19d89b385bf1ebb177b0bdd3edc0838a.js",
+    "service-worker.js": "/itera_travis_workshop/service-worker.js",
+    "static/css/main.fa44479f.chunk.css.map": "/itera_travis_workshop/static/css/main.fa44479f.chunk.css.map",
+    "static/media/TravisCI.png": "/itera_travis_workshop/static/media/TravisCI.45e24279.png"
+  }
+}
